@@ -1,7 +1,7 @@
-import About from './assets/components/about/about';
-import Header from './assets/components/header';
-import Home from './assets/components/home/home';
-import Services from './assets/components/services/services';
+import About from './components/about/about';
+import Header from './components/header';
+import Home from './components/home/home';
+import Services from './components/services/services';
 
 function App() {
         return (

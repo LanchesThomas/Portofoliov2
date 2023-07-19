@@ -1,5 +1,7 @@
-import { SkillsData } from '../../../data/skill';
+import { SkillsData } from '../../data/skill';
+import { StacksData } from '../../data/stack';
 import SkillCard from './skill';
+import StackCard from './stack';
 
 const Services = () => {
         return (
@@ -19,6 +21,18 @@ const Services = () => {
                                                 title={skill.title}
                                                 logo={skill.logo}
                                                 description={skill.description}
+                                        />
+                                ))}
+                        </div>
+                        <h2 className="text-5xl text-secondary font-bold tracking-wide pt-10">
+                                Stack Techniques
+                        </h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-main w-full gap-8 pt-5">
+                                {StacksData.map((stack) => (
+                                        <StackCard
+                                                key={stack.id}
+                                                logo={stack.logo}
+                                                title={stack.title}
                                         />
                                 ))}
                         </div>

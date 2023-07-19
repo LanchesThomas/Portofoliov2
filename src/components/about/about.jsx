@@ -1,4 +1,4 @@
-import CV from './CV.pdf';
+import CV from '../../assets/CV/CV.pdf';
 
 const About = () => {
         return (
