@@ -1,6 +1,7 @@
 import About from './components/about/about';
-import Header from './components/header';
+import Header from './components/header/header';
 import Home from './components/home/home';
+import Projects from './components/projects/projects';
 import Services from './components/services/services';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
                                 <Home />
                                 <Services />
                                 <About />
+                                <Projects />
                         </main>
                 </div>
         );
