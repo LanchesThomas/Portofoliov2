@@ -4,14 +4,29 @@ export default {
         theme: {
                 extend: {
                         keyframes: {
-                                spinY: {
-                                        '0%': { transform: 'rotateY(0deg);' },
-                                        '100%': {transform : 'rotateY(360deg);'}
+                                waves: {
+                                        '0%': { rotate: '10deg' },
+                                        '50%': {rotate: '-10deg'},
+                                        '100%': {rotate : '10deg'}
                                 },
+                                fadeTop: {
+                                        '100%': {transform: 'translateY(0%)'}
+                                },
+                                fadeBottom: {
+                                        '100%': {transform: 'translateY(0%)'}
+                                },
+                                opacity : {
+                                        '0%': {opacity: '0'},
+                                        '100%': {opacity: '1'}
+                                }
                                 
                         },
                         animation: {
-                               'spinY' : 'spinY 5s linear infinite',
+                               'spin-slow' : 'spin 10s linear infinite',
+                               'waves': 'waves 10s ease-in-out infinite',
+                               'apparitionTop': 'fadeTop 1s ease-out forwards, opacity 3s linear',
+                               'apparitionBottom': 'fadeBottom 2s 1s ease-out forwards, opacity 2s linear forwards',
+                               'apparitionOpacity': 'opacity 5s 2s ease-in-out backwards',
                         }
                 },
                 colors: {

@@ -1,36 +1,37 @@
 import SideBar from './sidebar';
+import { Link } from 'react-router-dom';
 
 const NavMenu = () => {
         return (
                 <div className="relative flex items-center">
                         <nav className="hidden my-auto gap-5 lg:gap-10 text-text lg:text-xl font-bold tracking-wide md:flex ">
                                 <a
-                                        href="#home"
+                                        href="/#home"
                                         className="hover:text-secondary transition-colors duration-500"
                                 >
                                         Home
                                 </a>
                                 <a
-                                        href="#services"
+                                        href="/#services"
                                         className="hover:text-secondary transition-colors duration-500"
                                 >
                                         {' '}
                                         Services
                                 </a>
                                 <a
-                                        href="#about"
+                                        href="/#about"
                                         className="hover:text-secondary transition-colors duration-500"
                                 >
                                         A propos
                                 </a>
-                                <a
-                                        href="#portofolio"
+                                <Link
+                                        to="/portofolio"
                                         className="hover:text-secondary transition-colors duration-500"
                                 >
                                         Réalisations
-                                </a>
+                                </Link>
                                 <a
-                                        href="#contact"
+                                        href="/#contact"
                                         className="hover:text-secondary transition-colors duration-500"
                                 >
                                         Contact

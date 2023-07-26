@@ -6,12 +6,13 @@ import { SiMongodb as MongoDb } from 'react-icons/si';
 import { DiCss3 as CSS } from 'react-icons/di';
 import { AiFillHtml5 as HTML } from 'react-icons/ai';
 import { SiJavascript as JavaScript } from 'react-icons/si';
+import { SiMui as MUI } from 'react-icons/si';
 
 export const ProjectsData = [
         {
                 id: 1,
                 title: 'Kasa',
-                image: '',
+                image: 'src/assets/img/kasa.png',
                 description:
                         "Ce projet consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET avec un important code legacy. L'objectif est de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistais donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
                 stacks: [
@@ -28,27 +29,27 @@ export const ProjectsData = [
         {
                 id: 2,
                 title: 'Gpt-3',
-                image: '',
-                description: '',
+                image: 'src/assets/img/gpt-3.png',
+                description: "Ce projet consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET avec un important code legacy. L'objectif est de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistais donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
                 stacks: [
                     {
-                            name: 'Express',
-                            logo: <Express />,
+                            name: 'React',
+                            logo: <React />,
                     },
                     {
-                            name: 'Mongoose',
-                            logo: <Mongoose />,
+                            name: 'Styled Components',
+                            logo: <StyledComponents />,
                     },
                     {
-                            name: 'MongoDb',
-                            logo: <MongoDb />,
+                            name: 'MUI',
+                            logo: <MUI />,
                     },
             ],
         },
         {
                 id: 3,
                 title: 'Piiquantes',
-                image: '',
+                image: 'src/assets/img/piiquantes.png',
                 description:
                         "Cette fois ci dans la peau d'un développeur back-end indépendant, j'ai travaillé sur l'API d'une application web de critique de sauces piquantes pour la marque \"Piiquante\". Ils souhaitaient une galerie de sauces où les utilisateurs peuvent partager et évaluer les sauces. Le front-end été déjà développé en Angular. La sécurité été primordiale suite à des attaques précédentes, c'est pourquoi on a mis en place une protection des mots de passe élevée.",
                 stacks: [
@@ -69,8 +70,8 @@ export const ProjectsData = [
         {
                 id: 4,
                 title: 'Kanap',
-                image: "Dans ce projet on m'a confié une mission pour le client Kanap, une marque de canapés. Ils souhaitaient une plateforme de e-commerce en plus de leur boutique physique pour vendre leurs produits en ligne.   L'implémentation des informations du site c'est faite de manière dynamique en intégrant les éléments de l'API avec JavaScript. J'ai suivi les maquettes statique et dynamiques afin de les intégrer dans le site.",
-                description: '',
+                image: "src/assets/img/kanap.png",
+                description: "Dans ce projet on m'a confié une mission pour le client Kanap, une marque de canapés. Ils souhaitaient une plateforme de e-commerce en plus de leur boutique physique pour vendre leurs produits en ligne.   L'implémentation des informations du site c'est faite de manière dynamique en intégrant les éléments de l'API avec JavaScript. J'ai suivi les maquettes statique et dynamiques afin de les intégrer dans le site.",
                 stacks: [
                         {
                                 name: 'CSS',

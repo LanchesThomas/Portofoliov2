@@ -1,5 +1,6 @@
 import { AiOutlineMenu, AiOutlineCloseCircle } from 'react-icons/ai';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
         const [nav, setNav] = useState(true);
@@ -8,7 +9,7 @@ const SideBar = () => {
                 console.log(nav);
         };
         return (
-                <div className="md:hidden">
+                <div className="md:hidden" onClick={handleNav}>
                         {nav ? (
                                 <AiOutlineMenu
                                         className="text-text text-xl"
@@ -21,13 +22,13 @@ const SideBar = () => {
                                                 onClick={handleNav}
                                         />
                                         <nav className="absolute h-auto w-60 bg-darker p-5 top-12 right-[-10px] text-text flex flex-col gap-10 duration-500 rounded-bl-lg">
-                                                <a href="#home">Acceuil</a>
-                                                <a href="#services">Services</a>
-                                                <a href="#about">A propos</a>
-                                                <a href="#portofolio">
+                                                <a href="/#home">Acceuil</a>
+                                                <a href="/#services">Services</a>
+                                                <a href="/#about">A propos</a>
+                                                <Link to="/portofolio">
                                                         Réalisations
-                                                </a>
-                                                <a href="#contact">Contact</a>
+                                                </Link>
+                                                <a href="/#contact">Contact</a>
                                         </nav>
                                 </div>
                         )}

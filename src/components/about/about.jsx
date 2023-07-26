@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
 import CV from '../../assets/CV/CV.pdf';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+        useEffect(()=> {
+                Aos.init({duration: 2000 })
+        })
         return (
-                <section id="about" className="text-text py-20">
+                <section id="about" className="text-text py-20" data-aos="fade-up">
                         <h3 className="text-2xl">A propos</h3>
+                        <div className='h-1 bg-tertiary my-4'></div>
                         <h2 className="text-5xl text-secondary font-bold tracking-wide">
                                 Parcours
                         </h2>
