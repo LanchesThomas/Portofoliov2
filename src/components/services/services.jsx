@@ -12,7 +12,7 @@ const Services = () => {
         }, []);
         return (
                 <section
-                        className="text-text py-20 flex flex-col gap-4"
+                        className="text-text py-20 flex flex-col gap-4 services"
                         id="services"
                         data-aos="fade-up"
                         data-aos-delay="1000"
@@ -33,23 +33,19 @@ const Services = () => {
                                         />
                                 ))}
                         </div>
-                        <h2
-                                className="text-5xl text-secondary font-bold tracking-wide pt-10"
-                                data-aos="fade-up"
-                        >
-                                Stack Techniques
-                        </h2>
-                        <div
-                                className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-main w-full gap-8 pt-5"
-                                data-aos="fade-up"
-                        >
-                                {StacksData.map((stack) => (
-                                        <StackCard
-                                                key={stack.id}
-                                                logo={stack.logo}
-                                                title={stack.title}
-                                        />
-                                ))}
+                        <div data-aos="fade-up">
+                                <h2 className="text-5xl text-secondary font-bold tracking-wide pt-10">
+                                        Stack Techniques
+                                </h2>
+                                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-main w-full gap-8 pt-5 stackCard">
+                                        {StacksData.map((stack) => (
+                                                <StackCard
+                                                        key={stack.id}
+                                                        logo={stack.logo}
+                                                        title={stack.title}
+                                                />
+                                        ))}
+                                </div>
                         </div>
                 </section>
         );

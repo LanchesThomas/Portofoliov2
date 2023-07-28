@@ -1,34 +1,30 @@
-import { useState } from 'react';
+import { useContext } from 'react';
+import { ThemeContext } from '../../App';
 
 const Logo = () => {
-        const [click, setClick] = useState(false);
-        const HandleClick = () => {
-                setClick(!click);
-                console.log(click);
-        };
+        const [theme] = useContext(ThemeContext);
+        console.log(theme);
         return (
-                <div className="my-auto flex">
+                <a href="/" className="my-auto flex ">
                         <div
                                 className={
-                                        click
-                                                ? 'border-2 border-secondary p-1   font-bold lg:text-xl tracking-wide cursor-pointer text-secondary bg-darker transition duration-300'
-                                                : 'border-2 border-secondary p-1  font-bold lg:text-xl tracking-wide cursor-pointer text-main bg-secondary transition duration-300'
+                                        theme === 'dark'
+                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-main logo'
+                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-darker bg-secondary logo'
                                 }
-                                onClick={HandleClick}
                         >
                                 THOMAS
                         </div>
                         <div
                                 className={
-                                        click
-                                                ? 'border-2 border-secondary p-1  font-bold lg:text-xl tracking-wide cursor-pointer text-main bg-secondary transition duration-300'
-                                                : 'border-2 border-secondary p-1  font-bold lg:text-xl tracking-wide cursor-pointer text-secondary bg-main transition duration-300'
+                                        theme === 'dark'
+                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-main bg-secondary logo'
+                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-darker logo'
                                 }
-                                onClick={HandleClick}
                         >
                                 LANCHES
                         </div>
-                </div>
+                </a>
         );
 };
 

@@ -15,7 +15,7 @@ export const SkillsData = [
                 title: 'Developpement Front-end',
                 logo: <GrTestDesktop/>,
                 description:
-                        "J'effectue pour des clients des mission de freelance qui vont du développement d'un site web complet, à de l'intégration ou de l'optimisation.",
+                        "",
         },
         {
                 id: '3',

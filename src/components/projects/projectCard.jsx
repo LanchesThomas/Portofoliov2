@@ -1,8 +1,13 @@
-// import KasaImg from './assets/img/kasa.png'
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectCard = ({ id, title, image, description, stacks }) => {
+        useEffect(() => {
+                Aos.init({diration: 2000})
+        }, [])
         return (
-                <div className="flex flex-col gap-6 h-full">
+                <div className="flex flex-col gap-6 h-full projectCards">
                         <p className="text-5xl font-bold text-secondary">
                                 {title}
                         </p>
