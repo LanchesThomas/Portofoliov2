@@ -19,7 +19,7 @@ const SwitchTheme = () => {
 
         return (
                 <div className="absolute top-[54%] right-[0%] md:right-[2%] translate-x-[-50%] translate-y-[-50%]">
-                        <button onClick={handleSwithchTheme}>
+                        <button onClick={handleSwithchTheme} aria-label='switch-button'>
                                 {theme === 'dark' ? (
                                         <Dark className="text-2xl text-secondary animate-spin-switch" />
                                 ) : (
