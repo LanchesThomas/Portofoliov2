@@ -12,16 +12,16 @@ const Header = () => {
         },[]);
 
         return (
-                <>
+                <div data-aos="fade-in" >
                         <header
-                                className="fixed w-full bg-darker h-20 flex justify-between content-center px-[10%] z-50"
-                                data-aos="fade-in"
+                                className="fixed w-full bg-darker h-20 flex justify-between content-center px-[10%] z-50 header"
+                                
                         >
                                 <Logo />
                                 <NavMenu />
                                 <SwitchTheme />
                         </header>
-                </>
+                </div>
         );
 };
 

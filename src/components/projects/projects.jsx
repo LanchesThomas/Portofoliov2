@@ -18,6 +18,7 @@ const Projects = () => {
                                                 key={project.id}
                                                 title={project.title}
                                                 image={project.image}
+                                                url={project.url}
                                                 description={
                                                         project.description
                                                 }

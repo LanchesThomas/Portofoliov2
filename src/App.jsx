@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 export const ThemeContext = React.createContext()
 
 function App() {
-        const [theme, setTheme] = useState('light');
+        const [theme, setTheme] = useState('dark');
         return (
                 <ThemeContext.Provider value={[theme, setTheme]}>
                         <Header />

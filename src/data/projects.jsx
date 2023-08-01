@@ -13,6 +13,7 @@ export const ProjectsData = [
                 id: 1,
                 title: 'Kasa',
                 image: 'src/assets/img/kasa.png',
+                url: "https://lanchesthomas.github.io/kasa",
                 description:
                         "Ce projet consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET avec un important code legacy. L'objectif est de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistais donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
                 stacks: [
@@ -30,6 +31,7 @@ export const ProjectsData = [
                 id: 2,
                 title: 'Gpt-3',
                 image: 'src/assets/img/gpt-3.png',
+                url:"https://lanchesthomas.github.io/gpt-3/",
                 description: "Ce projet consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET avec un important code legacy. L'objectif est de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistais donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
                 stacks: [
                     {
