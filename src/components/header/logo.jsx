@@ -9,8 +9,8 @@ const Logo = () => {
                         <div
                                 className={
                                         theme === 'dark'
-                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-main logo'
-                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-darker bg-secondary logo'
+                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-main logo cursor-default'
+                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-darker bg-secondary logocursor-default'
                                 }
                         >
                                 THOMAS
@@ -18,8 +18,8 @@ const Logo = () => {
                         <div
                                 className={
                                         theme === 'dark'
-                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-main bg-secondary logo'
-                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-darker logo'
+                                                ? 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-main bg-secondary logo cursor-default'
+                                                : 'border-2 border-secondary p-1 font-bold lg:text-xl tracking-wide text-secondary bg-darker logo cursor-default'
                                 }
                         >
                                 LANCHES
