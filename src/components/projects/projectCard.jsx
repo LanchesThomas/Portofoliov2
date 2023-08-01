@@ -52,6 +52,7 @@ const ProjectCard = ({ id, title, image, url, description, stacks }) => {
                                                 alt=""
                                                 className="object-cover bg-main"
                                                 loading="lazy"
+                                         
                                         />
                                 </div>
                         </div>
