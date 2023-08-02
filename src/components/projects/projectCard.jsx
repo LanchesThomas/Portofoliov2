@@ -20,9 +20,9 @@ const ProjectCard = ({ id, title, image, url, description, stacks }) => {
                                         {stacks.map((stack, index) => (
                                                 <div
                                                         key={index}
-                                                        className="flex flex-col"
+                                                        className="flex flex-col items-center"
                                                 >
-                                                        <span className=" text-2xl lg:text-4xl border-2 p-2 text-secondary rounded-full">
+                                                        <span className=" text-2xl lg:text-4xl border-2 p-2  text-secondary rounded-full">
                                                                 {stack.logo}
                                                         </span>
                                                         <p className="text-xs text-center text-secondary">

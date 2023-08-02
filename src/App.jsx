@@ -5,7 +5,7 @@ import Home from './components/home/home';
 import Projects from './components/projects/projects';
 import { Route, Routes } from 'react-router-dom';
 
-export const ThemeContext = React.createContext()
+export const ThemeContext = React.createContext();
 
 function App() {
         const [theme, setTheme] = useState('dark');
@@ -22,8 +22,8 @@ function App() {
                                         />
                                 </Routes>
                         </main>
-
                         <Footer />
+
                 </ThemeContext.Provider>
         );
 }
