@@ -15,7 +15,7 @@ export const ProjectsData = [
                 image: '/img/kasa.webp',
                 url: "https://lanchesthomas.github.io/kasa",
                 description:
-                        "Ce projet, réalisé lors de ma formation, consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET. L'objectif etait de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistais donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
+                        "Ce projet, réalisé lors de ma formation, consiste en une refonte complète du site de Kasa, réalisé il y a plus de 10 ans en ASP.NET. L'objectif était de migrer vers une stack JavaScript complète avec NodeJS côté back-end et React côté front-end. J'étais chargé de démarrer le projet React et de développer l'ensemble de l'application en suivant les maquettes, en créant les composants React et les routes React Router. J'avais également des contraintes fonctionnelles à respecter, notamment pour le défilement des photos dans la galerie et le comportement des Collapses. Ma mission consistait donc à développer le front-end avec un code de qualité en accord avec les coding guidelines de Kasa.",
                 stacks: [
                         {
                                 name: 'react',
@@ -32,7 +32,7 @@ export const ProjectsData = [
                 title: 'Gpt-3',
                 image: '/img/gpt-3.webp',
                 url:"https://lanchesthomas.github.io/gpt-3/",
-                description: "Ce projet a été réalisé avec pour seul but d'utiliser la librairie MUI. Il m'a permis de travailler mes connaissances de React avec Styled-Components pour le CSS. Le design moderne de ce projet m'a permis de travailler des fonctionnalités avancées en CSS, il m'a fallu être très exigeants quant au placements de chaque élément et à leur évolutions en fontion de la taille d'écran. Toutes les spécification de CSS sont présentes sur ce site (Grid, FlexBox, Media Querries, etc).",
+                description: "Ce projet a été réalisé avec pour seul but d'utiliser la librairie MUI. Il m'a permis de travailler mes connaissances de React avec Styled-Components pour le CSS. Le design moderne de ce projet m'a permis de travailler des fonctionnalités avancées en CSS, il m'a fallu être très exigeants quant aux placements de chaque élément et à leurs évolutions en fonction de la taille d'écran. Toutes les spécifications de CSS sont présentes sur ce site (Grid, FlexBox, Media Querries, etc).",
                 stacks: [
                     {
                             name: 'React',
@@ -53,7 +53,7 @@ export const ProjectsData = [
                 title: 'Piiquantes',
                 image: '/img/piiquantes.webp',
                 description:
-                        "Ce projet à été réalisé dans le cadre de ma formation, j'ai travaillé sur l'API d'une application web de critique de sauces piquantes pour la marque \"Piiquante\". Ils souhaitaient une galerie de sauces où les utilisateurs pourraient partager et évaluer les sauces. Le front-end été déjà développé en Angular, ma mission été de développer le Back-end. La sécurité été primordiale suite à des attaques précédentes, c'est pourquoi on a mis en place une stratégie de protection des informations utilisateurs élevée.",
+                        "Ce projet a été réalisé dans le cadre de ma formation, j'ai travaillé sur l'API d'une application web de critique de sauces piquantes pour la marque \"Piiquante\". Ils souhaitaient une galerie de sauces où les utilisateurs pourraient partager et évaluer les sauces. Le front-end été déjà développé en Angular, ma mission été de développer le Back-end. La sécurité était primordiale suite à des attaques précédentes, c'est pourquoi on a mis en place une stratégie de protection des informations utilisateurs élevés.",
                 stacks: [
                         {
                                 name: 'Express',
@@ -73,7 +73,7 @@ export const ProjectsData = [
                 id: 4,
                 title: 'Kanap',
                 image: "/img/kanap.webp",
-                description: "Toujours dans le cadre de ma formation, on m'a confié un projet pour une marque de canapé, Kanap. Ils souhaitaient une plateforme de e-commerce en plus de leur boutique physique pour vendre leurs produits en ligne.  L'implémentation des informations du site c'est faite de manière dynamique en intégrant les éléments de l'API avec JavaScript. J'ai suivi les maquettes statique et dynamiques afin de les intégrer dans leur site.",
+                description: "Toujours dans le cadre de ma formation, on m'a confié un projet pour une marque de canapé, Kanap. Ils souhaitaient une plateforme de e-commerce en plus de leur boutique physique pour vendre leurs produits en ligne. L'implémentation des informations du site s'est faite de manière dynamique en intégrant les éléments de l'API avec JavaScript. J'ai suivi les maquettes statiques et dynamiques afin de les intégrer dans leur site.",
                 stacks: [
                         {
                                 name: 'CSS',

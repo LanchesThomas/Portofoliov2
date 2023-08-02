@@ -31,4 +31,7 @@ footer,
         transition: 500ms;
 }
 
+body {
+        overflow-x: hidden;
+}
 
