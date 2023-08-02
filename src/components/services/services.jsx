@@ -33,7 +33,7 @@ const Services = () => {
                                         />
                                 ))}
                         </div>
-                        <div data-aos="fade-up">
+                        <div>
                                 <h2 className="text-5xl text-secondary font-bold tracking-wide pt-10">
                                         Stack Techniques
                                 </h2>
