@@ -28,7 +28,7 @@ const Contact = () => {
                                 </a>
                                 <div className="sm:w-2/3 flex justify-center items-center text-5xl lg:text-7xl text-text gap-4 p-5 hover:bg-secondary hover:scale-105 transition-all group bg-tertiary">
                                         <BsFillTelephoneFill className="group-hover:hidden group-hover:text-main" />
-                                        <div className="p-5 hidden group-hover:inline text-main text-5xl transition-all">
+                                        <div className="p-5 hidden group-hover:inline text-main text-xl xl:text-3xl transition-all">
                                                 <p>06.43.87.50.34</p>
                                         </div>
                                 </div>
