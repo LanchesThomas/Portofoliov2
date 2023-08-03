@@ -15,7 +15,7 @@ const Services = () => {
                         className="text-text py-20 flex flex-col gap-4 services"
                         id="services"
                         data-aos="fade-up"
-                        data-aos-delay="1000"
+                        data-aos-delay="500"
                 >
                         <h3 className="text-2xl">Services</h3>
                         <div className="h-1 bg-tertiary"></div>

@@ -18,7 +18,7 @@ const About = () => {
                         <h2 className="text-5xl text-secondary font-bold tracking-wide">
                                 Parcours
                         </h2>
-                        <p className="text-lg my-10 flex flex-wrap">
+                        <p className="text-lg my-10 ">
                                 Je m&apos;appelle Thomas Lanches, je suis
                                 passionné par la technologie et
                                 l&apos;informatique depuis toujours et je me
@@ -27,13 +27,13 @@ const About = () => {
                                 immédiatement captivé par la création de sites
                                 web et j&apos;ai consacré chaque moment libre à
                                 approfondir mes connaissances en langages de
-                                programmation. &nbsp;J&apos;ai commencé par le{' '}
+                                programmation. &nbsp;J&apos;ai commencé par le &nbsp;
                                 <span className="text-secondary font-bold">
                                         HTML
                                 </span>
                                 , &nbsp;
                                 <span className="text-secondary font-bold">
-                                        CSS
+                                        CSS&nbsp;
                                 </span>{' '}
                                 et&nbsp;{' '}
                                 <span className="text-secondary font-bold">
@@ -55,8 +55,8 @@ const About = () => {
                                 ,
                                 <span className="text-secondary font-bold">
                                         &nbsp;MySQL
-                                </span>
-                                ... <br />
+                                </span> ...
+                                 <br />
                                 <br />
                                 Ma passion m&apos;a pousser à réalisé des projets
                                 et à suivre des formations en ligne pour me
