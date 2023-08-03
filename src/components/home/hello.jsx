@@ -8,7 +8,7 @@ const Hello = () => {
                 >
                         <h1 className="text-5xl z-10">
                                 Bonjour, <br /> je suis{' '}
-                                <span className="text-secondary text-7xl font-bold">
+                                <span className="text-secondary text-5xl sm:text-7xl font-bold">
                                         développeur web
                                 </span>
                                 .

@@ -11,6 +11,7 @@ const NavMenu = () => {
                                 <nav className="hidden my-auto gap-5 lg:gap-10 text-text lg:text-xl font-bold tracking-wide md:flex ">
                                         <a
                                                 href="/#home"
+                                                
                                                 className="hover:text-secondary transition-colors duration-500"
                                         >
                                                 Home

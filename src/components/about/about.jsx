@@ -18,7 +18,7 @@ const About = () => {
                         <h2 className="text-5xl text-secondary font-bold tracking-wide">
                                 Parcours
                         </h2>
-                        <p className="text-lg my-10">
+                        <p className="text-lg my-10 flex flex-wrap">
                                 Je m&apos;appelle Thomas Lanches, je suis
                                 passionné par la technologie et
                                 l&apos;informatique depuis toujours et je me
