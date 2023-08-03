@@ -6,7 +6,7 @@ const NavMenu = () => {
         const Location = useLocation();
         const LocationPath = Location.pathname;
         return (
-                <div className="relative flex items-center">
+                <div className="flex items-center">
                         {LocationPath === '/portofolio' ? (
                                 <nav className="hidden my-auto gap-5 lg:gap-10 text-text lg:text-xl font-bold tracking-wide md:flex ">
                                         <a
