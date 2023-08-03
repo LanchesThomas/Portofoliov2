@@ -3,13 +3,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiLogoGmail as Gmail } from 'react-icons/bi';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
-import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
 
 const SideBar = () => {
         const [nav, setNav] = useState(true);
         const handleNav = () => {
                 setNav(!nav);
-                console.log(nav);
+           
         };
         return (
                 <div className="md:hidden" onClick={handleNav}>
@@ -19,42 +18,42 @@ const SideBar = () => {
                                         onClick={handleNav}
                                 />
                         ) : (
-                                <div className="">
+                                <div>
                                         <AiOutlineCloseCircle
                                                 className="text-text text-xl"
                                                 onClick={handleNav}
                                         />
-                                        <div className="absolute h-screen w-60 bg-darker p-5 top-20 right-0 flex flex-col justify-around">
-                                                <nav className="text-text flex flex-col justify-start gap-10 transition-all">
+                                        <div className="absolute h-screen w-60 bg-darker p-5 top-20 right-0 flex flex-col justify-around animate-sideBar" id='sidebar'>
+                                                <nav className="text-text flex flex-col justify-start gap-10 transition-all mt-[-100px]">
                                                         <a
                                                                 href="/#home"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
-                                                                Acceuil
+                                                                ACCUEIL
                                                         </a>
                                                         <a
                                                                 href="/#services"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
-                                                                Services
+                                                                SERVICES
                                                         </a>
                                                         <a
                                                                 href="/#about"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
-                                                                A propos
+                                                                A PROPOS
                                                         </a>
                                                         <Link
                                                                 to="/portofolio"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
-                                                                Réalisations
+                                                                REALISATIONS
                                                         </Link>
                                                         <a
                                                                 href="/#contact"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
-                                                                Contact
+                                                                CONTACT
                                                         </a>
                                                 </nav>
                                                 <div className="h-32 grid grid-cols-2  gap-3 justify-center items-center mt-[-150px]">

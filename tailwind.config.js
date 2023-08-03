@@ -18,6 +18,14 @@ export default {
                                         '0%': { opacity: '0' },
                                         '100%': { opacity: '1' },
                                 },
+                                sideBar : {
+                                        '0%' : {right: '-400px'},
+                                        '100%': {right: '0px'}
+                                },
+                                sideBarX : {
+                                        '0%' : {right: '0'},
+                                        '100%': {right: '-400px'}
+                                },
                         },
                         animation: {
                                 'spin-slow': 'spin 10s linear infinite',
@@ -29,6 +37,8 @@ export default {
                                         'fadeBottom 2s 1s ease-out forwards, opacity 2s linear forwards',
                                 apparitionOpacity:
                                         'opacity 5s 2s ease-in-out backwards',
+                                sideBar : 'sideBar 600ms ease-in-out backwards',
+                                sideBarX : 'sideBarX 600ms ease-in-out backwards',
                         },
                 },
                 colors: {
