@@ -1,4 +1,11 @@
+import {PropTypes} from 'prop-types'
+
 const SkillCard = ({ title, logo, description }) => {
+        SkillCard.propTypes = {
+                title: PropTypes.string.isRequired,
+                logo: PropTypes.string.isRequired,
+                description: PropTypes.string.isRequired
+        }
         return (
                 <div className="h-100 w-full bg-tertiary flex flex-col gap-4 p-8 skillCard hover:bg-secondary hover:scale-110 transition-all group">
                         <div className='text-5xl text-secondary group-hover:text-main'>{logo}</div>

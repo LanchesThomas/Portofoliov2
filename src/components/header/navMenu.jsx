@@ -7,7 +7,7 @@ const NavMenu = () => {
         const LocationPath = Location.pathname;
         return (
                 <div className="flex items-center">
-                        {LocationPath === '/portofolio' ? (
+                        {LocationPath === '/portfolio' ? (
                                 <nav className="hidden my-auto gap-5 lg:gap-10 text-text lg:text-xl font-bold tracking-wide md:flex ">
                                         <a
                                                 href="/#home"
@@ -31,7 +31,7 @@ const NavMenu = () => {
                                                 A propos
                                         </a>
                                         <Link
-                                                to="/portofolio"
+                                                to="/portfolio"
                                                 className="hover:text-secondary transition-colors duration-500"
                                         >
                                                 Réalisations
@@ -78,7 +78,7 @@ const NavMenu = () => {
                                                 A propos
                                         </ScrollLink>
                                         <Link
-                                                to="/portofolio"
+                                                to="/portfolio"
                                                 className="hover:text-secondary transition-colors duration-500"
                                         >
                                                 Réalisations

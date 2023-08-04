@@ -1,8 +1,21 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import PropTypes from 'prop-types';
 
-const ProjectCard = ({title, image, url, description, stacks }) => {
+const ProjectCard = ({ title, image, url, description, stacks }) => {
+        ProjectCard.propTypes = {
+                title: PropTypes.string.isRequired,
+                image: PropTypes.string.isRequired,
+                url: PropTypes.string,
+                description: PropTypes.string.isRequired,
+                stacks: PropTypes.arrayOf(
+                        PropTypes.shape({
+                                logo: PropTypes.string.isRequired,
+                                name: PropTypes.string.isRequired,
+                        })
+                ).isRequired,
+        };
         useEffect(() => {
                 Aos.init({ diration: 2000 });
         }, []);
@@ -52,7 +65,6 @@ const ProjectCard = ({title, image, url, description, stacks }) => {
                                                 alt=""
                                                 className="object-cover bg-main"
                                                 loading="lazy"
-                                         
                                         />
                                 </div>
                         </div>

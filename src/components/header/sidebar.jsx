@@ -62,7 +62,7 @@ const SideBar = () => {
                                                                 A PROPOS
                                                         </a>
                                                         <Link
-                                                                to="/portofolio"
+                                                                to="/portfolio"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
                                                                 REALISATIONS

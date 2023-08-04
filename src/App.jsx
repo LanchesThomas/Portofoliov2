@@ -24,7 +24,7 @@ function App() {
                                                         element={<Home />}
                                                 />
                                                 <Route
-                                                        path="/portofolio"
+                                                        path="/portfolio"
                                                         element={<Projects />}
                                                 />
                                         </Routes>
