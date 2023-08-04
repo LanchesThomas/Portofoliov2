@@ -7,10 +7,32 @@ import { DiCss3 as CSS } from 'react-icons/di';
 import { AiFillHtml5 as HTML } from 'react-icons/ai';
 import { DiJavascript1 as JavaScript } from 'react-icons/di';
 import { SiMui as MUI } from 'react-icons/si';
+import { SiTailwindcss as Tailwind } from 'react-icons/si';
 
 export const ProjectsData = [
         {
                 id: 1,
+                title: 'Portfolio',
+                image: "/img/portfolio.webp",
+                url: 'https://lanchesthomas.com',
+                description: "La création de ce portfolio m'a permis de comprendre la puissance de Tailwind associés avec React. J'ai pu apprendre comment fonctionnait Tailwind et sa customisation pour en faire un outil puissant et personnaliser. Ce portfolio présente mes compétences, projets et parcours professionnel, reflétant mon style personnel et ma passion pour le développement web. Je vous invite à explorer mon portfolio pour découvrir mon travail et me contacter pour toute collaboration ou question.",
+                stacks: [
+                        {
+                                name: 'React',
+                                logo: <React />,
+                        },
+                        {
+                                name: 'Tailwind',
+                                logo: <Tailwind />,
+                        },
+                        {
+                                name: 'JavaScript',
+                                logo: <JavaScript />,
+                        },
+                ],
+        },
+        {
+                id: 2,
                 title: 'Kasa',
                 image: '/img/kasa.webp',
                 url: "https://lanchesthomas.github.io/kasa",
@@ -28,7 +50,7 @@ export const ProjectsData = [
                 ],
         },
         {
-                id: 2,
+                id: 3,
                 title: 'Gpt-3',
                 image: '/img/gpt-3.webp',
                 url:"https://lanchesthomas.github.io/gpt-3/",
@@ -49,7 +71,7 @@ export const ProjectsData = [
             ],
         },
         {
-                id: 3,
+                id: 4,
                 title: 'Piiquantes',
                 image: '/img/piiquantes.webp',
                 description:
@@ -70,7 +92,7 @@ export const ProjectsData = [
                 ],
         },
         {
-                id: 4,
+                id: 5,
                 title: 'Kanap',
                 image: "/img/kanap.webp",
                 description: "Toujours dans le cadre de ma formation, on m'a confié un projet pour une marque de canapé, Kanap. Ils souhaitaient une plateforme de e-commerce en plus de leur boutique physique pour vendre leurs produits en ligne. L'implémentation des informations du site s'est faite de manière dynamique en intégrant les éléments de l'API avec JavaScript. J'ai suivi les maquettes statiques et dynamiques afin de les intégrer dans leur site.",
@@ -89,4 +111,5 @@ export const ProjectsData = [
                         },
                 ],
         },
+        
 ];

@@ -1,5 +1,4 @@
 import {SiFreelancer} from "react-icons/si"
-import {GrTestDesktop} from "react-icons/gr"
 import {TbWorldHeart} from "react-icons/tb"
 import {MdBrandingWatermark} from "react-icons/md"
 import {MdOutlineSpeed} from "react-icons/md"

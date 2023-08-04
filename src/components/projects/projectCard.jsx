@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const ProjectCard = ({ id, title, image, url, description, stacks }) => {
+const ProjectCard = ({title, image, url, description, stacks }) => {
         useEffect(() => {
                 Aos.init({ diration: 2000 });
         }, []);
