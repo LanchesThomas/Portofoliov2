@@ -1,29 +1,47 @@
 import { AiOutlineMenu, AiOutlineCloseCircle } from 'react-icons/ai';
-import { useState } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { BiLogoGmail as Gmail } from 'react-icons/bi';
 import { FaLinkedinIn as LinkedIn } from 'react-icons/fa';
+import { NavContext } from '../../App';
 
 const SideBar = () => {
-        const [nav, setNav] = useState(true);
+        const [nav, setNav] = useContext(NavContext);
+        const SidebarRef = useRef();
+
+        useEffect(() => {
+                const closeNav = (e) => {
+                        if (e.target !== SidebarRef && e.target.id !== 'open') {
+                                setNav(true);
+                        }
+                };
+                document.body.addEventListener('click', closeNav);
+                return () =>
+                        document.body.removeEventListener('click', closeNav);
+        }, [setNav]);
+
         const handleNav = () => {
                 setNav(!nav);
-           
         };
+
         return (
                 <div className="md:hidden" onClick={handleNav}>
                         {nav ? (
                                 <AiOutlineMenu
                                         className="text-text text-xl"
                                         onClick={handleNav}
+                                        id="open"
                                 />
                         ) : (
-                                <div>
+                                <div ref={SidebarRef}>
                                         <AiOutlineCloseCircle
                                                 className="text-text text-xl"
                                                 onClick={handleNav}
                                         />
-                                        <div className="absolute h-screen w-60 bg-darker p-5 top-20 right-0 flex flex-col justify-around animate-sideBar" id='sidebar'>
+                                        <div
+                                                className="absolute h-screen w-60 bg-darker p-5 top-20 right-0 flex flex-col justify-around animate-sideBar"
+                                                id="sidebar"
+                                        >
                                                 <nav className="text-text flex flex-col justify-start gap-10 transition-all mt-[-100px]">
                                                         <a
                                                                 href="/#home"

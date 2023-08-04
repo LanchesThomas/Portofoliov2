@@ -16,7 +16,7 @@ export const SkillsData = [
         },
         {
                 id: '2',
-                title: 'Conception Web Captivante ',
+                title: 'Conception Web',
                 logo: <TbWorldHeart/>,
                 description:
                         "Créez une expérience utilisateur immersive grâce à des interfaces web modernes et attrayantes, parfaitement adaptées aux besoins de vos utilisateurs. ",

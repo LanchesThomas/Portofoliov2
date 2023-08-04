@@ -3,7 +3,6 @@ import { ThemeContext } from '../../App';
 
 const Logo = () => {
         const [theme] = useContext(ThemeContext);
-        console.log(theme);
         return (
                 <a href="/" className="my-auto flex ">
                         <div
