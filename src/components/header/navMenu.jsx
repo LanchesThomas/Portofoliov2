@@ -15,7 +15,7 @@ const NavMenu = () => {
                                                 smooth={true}
                                                 offset={-100}
                                                 duration={500}
-                                                className="hover:text-secondary transition-colors duration-500"
+                                                className="hover:text-secondary transition-colors duration-500 cursor-pointer"
                                         >
                                                 Home
                                         </ScrollLink>
@@ -26,7 +26,7 @@ const NavMenu = () => {
                                                 smooth={true}
                                                 offset={-100}
                                                 duration={500}
-                                                className="hover:text-secondary transition-colors duration-500"
+                                                className="hover:text-secondary transition-colors duration-500 cursor-pointer"
                                         >
                                                 {' '}
                                                 Services
@@ -37,7 +37,7 @@ const NavMenu = () => {
                                                 smooth={true}
                                                 offset={-100}
                                                 duration={500}
-                                                className="hover:text-secondary transition-colors duration-500"
+                                                className="hover:text-secondary transition-colors duration-500 cursor-pointer"
                                         >
                                                 A propos
                                         </ScrollLink>
@@ -53,7 +53,7 @@ const NavMenu = () => {
                                                 smooth={true}
                                                 offset={0}
                                                 duration={500}
-                                                className="hover:text-secondary transition-colors duration-500"
+                                                className="hover:text-secondary transition-colors duration-500 cursor-pointer"
                                         >
                                                 Contact
                                         </ScrollLink>
