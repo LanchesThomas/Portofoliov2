@@ -4,16 +4,22 @@ import { LiaCopyrightSolid } from 'react-icons/lia';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useLocation } from 'react-router-dom';
 
 const Footer = () => {
+        const Location = useLocation();
+        const LocationPath = Location.pathname;
         useEffect(() => {
                 Aos.init({ duration: 2000 });
         }, []);
         return (
-                <div data-aos=" ">
+                <div className="">
                         <footer
-                                className="bg-darker h-50 p-10 flex flex-col justify-around items-center px-[10%]"
-                                
+                                className={
+                                        (LocationPath === '/' || LocationPath === '/portfolio')
+                                                ? 'bg-darker h-50 p-10 flex flex-col justify-around items-center px-[10%]'
+                                                : 'bg-darker h-50 p-10 flex flex-col justify-around items-center px-[10%] absolute bottom-0 w-full'
+                                }
                         >
                                 <div className="w-full flex flex-col items-center md:flex-row justify-around text-text text-lg gap-5">
                                         <div className="flex gap-2 items-center">
@@ -38,7 +44,6 @@ const Footer = () => {
                                                 </span>
                                         </p>
                                 </div>
-                                
                         </footer>
                 </div>
         );

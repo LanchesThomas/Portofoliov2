@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Home from './components/home/home';
+import Error from './components/error/error';
 import Projects from './components/projects/projects';
 import { Route, Routes } from 'react-router-dom';
 
@@ -10,8 +11,8 @@ export const NavContext = React.createContext();
 
 function App() {
         const [nav, setNav] = useState(true);
-        const [theme, setTheme] = useState('dark');        
-        
+        const [theme, setTheme] = useState('dark');
+
         return (
                 <ThemeContext.Provider value={[theme, setTheme]}>
                         <NavContext.Provider value={[nav, setNav]}>
@@ -26,6 +27,10 @@ function App() {
                                                 <Route
                                                         path="/portfolio"
                                                         element={<Projects />}
+                                                />
+                                                <Route
+                                                        path="/*"
+                                                        element={<Error />}
                                                 />
                                         </Routes>
                                 </main>
