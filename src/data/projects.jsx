@@ -8,8 +8,8 @@ import { AiFillHtml5 as HTML } from 'react-icons/ai';
 import { DiJavascript1 as JavaScript } from 'react-icons/di';
 import { SiMui as MUI } from 'react-icons/si';
 import { SiTailwindcss as Tailwind } from 'react-icons/si';
-import { SiTailwindcss as Redux } from 'react-icons/si';
-import { SiTailwindcss as OpenAI } from 'react-icons/si';
+import { SiRedux as Redux } from 'react-icons/si';
+import { SiOpenai as OpenAI } from 'react-icons/si';
 
 export const ProjectsData = [
         {
