@@ -4,7 +4,7 @@ const Hello = () => {
         return (
                 <section
                         className="pt-40 pb-20 text-text flex flex-col gap-4 translate-y-[-100%] animate-apparitionTop"
-                        id="home"
+                        id="#home"
                 >
                         <h1 className="text-5xl z-10">
                                 Bonjour, <br /> je suis{' '}

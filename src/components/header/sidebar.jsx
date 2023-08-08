@@ -44,19 +44,19 @@ const SideBar = () => {
                                         >
                                                 <nav className="text-text flex flex-col justify-start gap-10 transition-all mt-[-100px]">
                                                         <a
-                                                                href="/#home"
+                                                                href="/##home"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
                                                                 ACCUEIL
                                                         </a>
                                                         <a
-                                                                href="/#services"
+                                                                href="/##services"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
                                                                 SERVICES
                                                         </a>
                                                         <a
-                                                                href="/#about"
+                                                                href="/##about"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
                                                                 A PROPOS
@@ -68,7 +68,7 @@ const SideBar = () => {
                                                                 REALISATIONS
                                                         </Link>
                                                         <a
-                                                                href="/#contact"
+                                                                href="/##contact"
                                                                 className="h-12 p-5 flex justify-center items-center border-b-2 border-secondary "
                                                         >
                                                                 CONTACT

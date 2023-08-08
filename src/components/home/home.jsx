@@ -11,7 +11,7 @@ const home = () => {
                 <Helmet>
                         <title>Thomas Lanches | Portofolio</title>
                         <meta name="description" content="Je suis Thomas Lanches, développeur web & mobile. Animé par l'envie de créer des sites innovants,  je met mes compétences à vos services." />
-                        <link rel="canonical" href="/" />
+                        <link rel="canonical" href="https://www.lanchesthomas.com/" />
                 </Helmet>
                         <Hello />
                         <Services/>

@@ -9,7 +9,7 @@ const About = () => {
         });
         return (
                 <section
-                        id="about"
+                        id="#about"
                         className="text-text py-20"
                         
                 >

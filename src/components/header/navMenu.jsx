@@ -10,7 +10,7 @@ const NavMenu = () => {
                         {LocationPath === '/' ? (
                                 <nav className="hidden my-auto gap-5 lg:gap-10 text-text lg:text-xl font-bold tracking-wide md:flex ">
                                         <ScrollLink
-                                                to="home"
+                                                to="#home"
                                                 spy={true}
                                                 smooth={true}
                                                 offset={-100}
@@ -21,7 +21,7 @@ const NavMenu = () => {
                                         </ScrollLink>
 
                                         <ScrollLink
-                                                to="services"
+                                                to="#services"
                                                 spy={true}
                                                 smooth={true}
                                                 offset={-100}
@@ -32,7 +32,7 @@ const NavMenu = () => {
                                                 Services
                                         </ScrollLink>
                                         <ScrollLink
-                                                to="about"
+                                                to="#about"
                                                 spy={true}
                                                 smooth={true}
                                                 offset={-100}
@@ -48,7 +48,7 @@ const NavMenu = () => {
                                                 Réalisations
                                         </Link>
                                         <ScrollLink
-                                                to="contact"
+                                                to="#contact"
                                                 spy={true}
                                                 smooth={true}
                                                 offset={0}
