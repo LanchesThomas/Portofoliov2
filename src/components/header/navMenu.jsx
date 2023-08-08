@@ -17,7 +17,7 @@ const NavMenu = () => {
                                                 duration={500}
                                                 className="hover:text-secondary transition-colors duration-500 cursor-pointer"
                                         >
-                                                Home
+                                                Acceuil
                                         </ScrollLink>
 
                                         <ScrollLink
@@ -64,7 +64,7 @@ const NavMenu = () => {
                                                 href="/#home"
                                                 className="hover:text-secondary transition-colors duration-500"
                                         >
-                                                Home
+                                                Acceuil
                                         </a>
 
                                         <a
