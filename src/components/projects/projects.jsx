@@ -13,7 +13,7 @@ const Projects = () => {
                 <>
                         <Helmet>
                                 <title>Thomas Lanches | Projets</title>
-                                <meta name="description" content="Découvrez les projets sur lesquelles j'ai travillé en tant que développeur web." />
+                                <meta name="description" content="Découvrez les projets sur lesquelles j'ai travaillé en tant que développeur web." />
                                 <link rel="canonical" href="/portfolio" />
                         </Helmet>
                         <section

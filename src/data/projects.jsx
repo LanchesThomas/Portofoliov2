@@ -13,6 +13,20 @@ import { SiOpenai as OpenAI } from 'react-icons/si';
 
 export const ProjectsData = [
         {
+                id: 7,
+                title: 'E-Commerce de vente de Motos et Pièces YCF',
+                image: '/img/minimoto-shop.png',
+                url: 'https://www.minimoto-shop.com',
+                description:
+                        "Ce site à été réalisé dans le cadre d'une alternance chez Ak-Racing afin de créer la première plateforme de vente pour les particuliers de motos et pièces YCF. Réalisé avec le CMS Odoo, cela m'as permis de prendre en main l'environnement Odoo et la gestion d'une base de données. Ce projet a été réalisé dans les deux premiers mois de mon alternance et j'avais la responsabilité sur tous les aspects du site, de la conception au déploiement. Une fois en ligne, je me suis occupé de sa visibilité grâce à une campagne SEO et à l'optimisation du site.",
+                stacks: [
+                        {
+                                name: 'Odoo',
+                                logo: 'Odoo',
+                        },
+                ],
+        },
+        {
                 id: 6,
                 title: "Résumé d'articles avec GPT-4",
                 image: '/img/ai-summarize.webp',
