@@ -64,10 +64,8 @@ const About = () => {
                                 ravi d&apos;utiliser mes compétences et ma
                                 passion pour contribuer à la création de sites
                                 web innovants et engageants. <br /> <br />
-                                Je suis actuellement à la recherche d&apos;une
-                                alternance avec une entreprise dans
-                                laquelle je pourrais continuer à apprendre et à
-                                développer mes connaissances.
+                                Je suis actuellement en alternance développeur web chez <a href="ak-racing.fr" target='_blank' className="text-secondary font-bold">Ak-Racing</a>.
+
                         </p>
                         <a
                                 href={CV}
